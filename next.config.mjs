@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/provadelinternet3',
   typescript: {
     ignoreBuildErrors: true,
   },

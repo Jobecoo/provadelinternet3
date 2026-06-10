@@ -35,14 +35,7 @@ export function WhyUs() {
               carrer.
             </p>
 
-            <div className="mt-8 overflow-hidden rounded-xl border border-border">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/images/local-team.png"
-                alt="L'equip local de Delinternet davant la seva oficina a El Perelló"
-                className="h-64 w-full object-cover md:h-80"
-              />
-            </div>
+
           </div>
 
           <dl className="grid gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-2">

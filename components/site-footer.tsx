@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 const columns = [
@@ -33,11 +34,8 @@ export function SiteFooter() {
       <div className="mx-auto max-w-7xl px-5 py-14 md:px-8">
         <div className="grid gap-10 md:grid-cols-[1.5fr_repeat(3,1fr)]">
           <div>
-            <Link href="/" className="flex items-baseline gap-1.5" aria-label="Delinternet">
-              <span className="font-heading text-2xl font-semibold tracking-tight">del</span>
-              <span className="rounded bg-accent px-1.5 font-heading text-2xl font-semibold tracking-tight text-accent-foreground">
-                internet
-              </span>
+            <Link href="/" className="flex items-center gap-1.5" aria-label="Delinternet">
+              <Image src="/images/logo.png" alt="Delinternet logo" width={180} height={40} className="h-8 w-auto object-contain" />
             </Link>
             <p className="mt-4 max-w-xs text-pretty text-sm leading-relaxed text-muted-foreground">
               Operadora local de telecomunicacions arrelada a les Terres de

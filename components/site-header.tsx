@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
@@ -20,6 +19,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
         <Link href="/" className="flex items-center gap-1.5" aria-label="Delinternet, inici">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/provadelinternet3/images/logo.png" alt="Delinternet logo" width="180" height="40" className="h-8 w-auto object-contain" />
         </Link>
 

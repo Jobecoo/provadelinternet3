@@ -35,7 +35,7 @@ export function SiteFooter() {
         <div className="grid gap-10 md:grid-cols-[1.5fr_repeat(3,1fr)]">
           <div>
             <Link href="/" className="flex items-center gap-1.5" aria-label="Delinternet">
-              <Image src="/images/logo.png" alt="Delinternet logo" width={180} height={40} className="h-8 w-auto object-contain" />
+              <img src="/provadelinternet3/images/logo.png" alt="Delinternet logo" width="180" height="40" className="h-8 w-auto object-contain" />
             </Link>
             <p className="mt-4 max-w-xs text-pretty text-sm leading-relaxed text-muted-foreground">
               Operadora local de telecomunicacions arrelada a les Terres de
